@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: url(https://wallpapercave.com/wp/wp6771241.jpg);
+}
+.container{
+    width:40%;
+    min-width: 500px;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top:30%;
+    left:30%;
+    transform: translate (-50%,-50%);
+    background:linear-gradient(to right ,#9cecfb,#65c7f7,#005cd4);
+    padding-bottom: 60px;
+    border-radius: 10px;
+}
+.displayTime{
+    width:100%;
+    background:#b9b9b9;
+    padding:40px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#000000;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size:4rem;
+  }
+.laps{
+    text-align:center;
+    color:black;
+    margin-top: 10px;
+    text-decoration: none;
+
+}
+.action{
+    width:85%;
+    margin:60px auto 0 auto;
+   display:grid;
+    grid-template-columns : repeat(3,1fr);
+    grid-gap:30px;
+   
+}
+.action button{
+    padding: 10px 2px;
+    background-color:whitesmoke;
+    color:#141313;
+    border:none;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius:20px;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: rgba(0,0,0,0.4) 0px 2px 4px,rgba(0,0,0,0.3)0px 7px 13px -3px;
+}
+button:hover{
+    background-color: #141313;
+    color: #ffffff;
+    border: 3px solid #b6b6b6;
+    padding:7px 17px;
+}
